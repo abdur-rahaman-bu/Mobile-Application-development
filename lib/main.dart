@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       height: 80,
                       color: Colors.green,
-                      child: Center(child: Text("A+")),
+                      child: Center(child: Text("O+")),
                     ),
                   ),
                   Expanded(
@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
                       bottomRight: Radius.circular(30),
                     ),
                   ),
-                  child: Center(child: Text("2110-020-22")),
+                  child: Center(child: Text("110-034-22")),
                 ),
               ),
             ],
