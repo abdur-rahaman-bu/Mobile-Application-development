@@ -34,21 +34,21 @@ class MyHomePage extends StatelessWidget {
                     flex: 2,
                     child: Container(
                       height: 80,
-                      color: Colors.red,
-                      child: Center(child: Text("22-CSE-034")),
+                      decoration: BoxDecoration(color: Colors.red),
+                      child: Center(child: Text("Roll: 22-CSE-034")),
                     ),
                   ),
                   Expanded(
                     child: Container(
                       height: 80,
-                      color: Colors.green,
+                      decoration: BoxDecoration(color: Colors.green),
                       child: Center(child: Text("O+")),
                     ),
                   ),
                   Expanded(
                     child: Container(
                       height: 80,
-                      color: Colors.blue,
+                      decoration: BoxDecoration(color: Colors.blue),
                       child: Center(child: Text("Barishal")),
                     ),
                   ),
@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
                       bottomRight: Radius.circular(30),
                     ),
                   ),
-                  child: Center(child: Text("110-034-22")),
+                  child: Center(child: Text("Reg: 110-034-22")),
                 ),
               ),
             ],
