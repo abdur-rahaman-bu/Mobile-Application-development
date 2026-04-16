@@ -1,20 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'counter.dart';
-import 'cse9.dart';
-
-void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class CSE extends StatelessWidget {
+  const CSE({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: SafeArea(child: Scaffold(body: BUCSE9())),
-    );
+    return const Placeholder();
   }
 }
