@@ -113,23 +113,61 @@ class _FormPracticeState extends State<FormPractice> {
                             controller: rollController,
                             decoration: InputDecoration(
                               labelText: "Roll",
-                              prefixIcon: const Icon(Icons.numbers),
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10),
+                                borderSide: const BorderSide(
+                                  color: Colors.grey,
+                                  width: 1.5,
+                                ),
                               ),
+                              enabledBorder: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(10),
+                                borderSide: const BorderSide(
+                                  color: Colors.grey,
+                                  width: 1.5,
+                                ),
+                              ),
+                              focusedBorder: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(10),
+                                borderSide: const BorderSide(
+                                  color: Color.fromARGB(255, 33, 243, 103),
+                                  width: 2,
+                                ),
+                              ),
+                              contentPadding: const EdgeInsets.all(12),
                             ),
                           ),
                         ),
+
                         const SizedBox(width: 10),
+
                         Expanded(
                           child: TextFormField(
                             controller: regController,
                             decoration: InputDecoration(
                               labelText: "Registration",
-                              prefixIcon: const Icon(Icons.confirmation_number),
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10),
+                                borderSide: const BorderSide(
+                                  color: Colors.grey,
+                                  width: 1.5,
+                                ),
                               ),
+                              enabledBorder: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(10),
+                                borderSide: const BorderSide(
+                                  color: Colors.grey,
+                                  width: 1.5,
+                                ),
+                              ),
+                              focusedBorder: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(10),
+                                borderSide: const BorderSide(
+                                  color: Colors.blue,
+                                  width: 2,
+                                ),
+                              ),
+                              contentPadding: const EdgeInsets.all(12),
                             ),
                           ),
                         ),
@@ -204,10 +242,28 @@ class _FormPracticeState extends State<FormPractice> {
                       maxLines: 3,
                       decoration: InputDecoration(
                         labelText: "About Me",
-                        prefixIcon: const Icon(Icons.info),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
+                          borderSide: const BorderSide(
+                            color: Colors.grey,
+                            width: 1.5,
+                          ),
                         ),
+                        enabledBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                          borderSide: const BorderSide(
+                            color: Colors.grey,
+                            width: 1.5,
+                          ),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                          borderSide: const BorderSide(
+                            color: Colors.blue,
+                            width: 2,
+                          ),
+                        ),
+                        contentPadding: const EdgeInsets.all(12),
                       ),
                     ),
 
