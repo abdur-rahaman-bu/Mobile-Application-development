@@ -19,7 +19,7 @@ class Student extends StatefulWidget {
 }
 
 class _StudentState extends State<Student> {
-  bool isPresent = false; // ✅ এখানে রাখো
+  bool isPresent = false; //
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class _StudentState extends State<Student> {
     return GestureDetector(
       onTap: () {
         setState(() {
-          isPresent = !isPresent; // ✅ এখন ঠিক
+          isPresent = !isPresent; //
         });
 
         print("Student ${widget.name} tapped. Presence: $isPresent");
